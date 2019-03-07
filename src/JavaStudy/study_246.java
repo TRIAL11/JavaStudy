@@ -14,9 +14,16 @@ public class study_246 {
         System.out.println(str); //输出为OOPS
         Test test=new Test();
         test.noUseElse(str);
-        System.out.println(str);
+        System.out.println(str); //OOPS
+        String newStr=noUse1(str);
+        System.out.println(newStr); //输出OOOPS
     }
-     static void noUse(String str){
+    static void noUse(String str){
         str = "O"+str;
+    }
+    static String noUse1(String str){
+        String newStr="";
+        newStr="O"+str;
+        return newStr;
     }
 }
