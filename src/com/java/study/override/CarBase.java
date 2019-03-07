@@ -34,4 +34,12 @@ public class CarBase {
             }
         }
     }
+    public void followSpeed(CarBase carBase){
+        int newSpeed=carBase.speed;
+        if(newSpeed > speed){
+            speedUp(newSpeed-this.speed);
+        }else {
+            slowDown(this.speed-newSpeed);
+        }
+    }
 }
