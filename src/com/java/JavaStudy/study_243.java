@@ -1,4 +1,4 @@
-package JavaStudy;
+package com.java.JavaStudy;
 
 /*对象在创建过程中肯定会调用类的构造方法
 * */

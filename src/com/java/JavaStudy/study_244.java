@@ -1,4 +1,4 @@
-package JavaStudy;
+package com.java.JavaStudy;
 
 /*当方法遇到static关键字
   * base为类变量

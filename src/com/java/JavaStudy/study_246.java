@@ -1,4 +1,4 @@
-package JavaStudy;
+package com.java.JavaStudy;
 
 class Test{
     String str;

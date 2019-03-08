@@ -1,4 +1,4 @@
-package JavaStudy;
+package com.java.JavaStudy;
 
 /*本节阐述 "==" 的意义：
         当两个引用指向同一对象或者同时为null时结果为true，否则为false*/
