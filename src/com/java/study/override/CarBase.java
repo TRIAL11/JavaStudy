@@ -26,7 +26,7 @@ public class CarBase {
         }
     }
     public void slowDown(int p_speed){
-        System.out.println("CarBase类中speedDown(int)方法被调用了");
+        System.out.println("CarBase类中slowDown(int)方法被调用了");
         if(p_speed > 0){
             int tempSpeed=speed-p_speed;
             if(tempSpeed>=0){
@@ -35,6 +35,8 @@ public class CarBase {
         }
     }
     public void followSpeed(CarBase carBase){
+        String className=this.getClass().getName();
+        System.out.println("调用者的类型为 ："+ className);
         int newSpeed=carBase.speed;
         if(newSpeed > speed){
             speedUp(newSpeed-this.speed);
