@@ -15,4 +15,7 @@ public class SubClassInDiffPackage extends AccessMethods{
     public void protectedMethod(){
 
     }
+//    public void usingDefaultMethod(){
+//        super.defaultMethod();          //错误,父类方法对子类不可见，因为不同包
+//    }
 }
